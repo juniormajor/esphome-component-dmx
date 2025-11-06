@@ -1,0 +1,24 @@
+# Beispiel für ESPHome:
+external_components:
+  - source: github://juniormajor/esp_dmx
+    components: [dmx]
+
+esphome:
+  name: dmx_rdm_controller
+  platform: ESP32
+  board: esp32dev
+
+logger:
+  level: DEBUG
+
+wifi:
+  ssid: "DEIN_SSID"
+  password: "DEIN_PASSWORT"
+
+api:
+ota:
+
+dmx:
+  tx_pin: GPIO17
+  rx_pin: GPIO16
+  enable_pin: GPIO4
