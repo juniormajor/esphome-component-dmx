@@ -1,19 +1,19 @@
 #pragma once
 #include "esphome/core/component.h"
 
-#include "/src/esp_dmx.h"
-#include "/src/dmx/sniffer.h"
-#include "/src/dmx/include/device.h"
-#include "/src/dmx/include/driver.h"
-#include "/src/dmx/include/parameter.h"
-#include "/src/dmx/include/service.h"
-#include "/src/dmx/include/types.h"
-#include "/src/dmx/hal/gpio.h"
-#include "/src/dmx/hal/nvs.h"
-#include "/src/dmx/hal/timer.h"
-#include "/src/dmx/hal/uart.h"
-#include "/src/rdm/controller.h"
-#include "/src/rdm/responder.h"
+#include "esp_dmx.h"
+#include "sniffer.h"
+#include "device.h"
+#include "driver.h"
+#include "parameter.h"
+#include "service.h"
+#include "types.h"
+#include "gpio.h"
+#include "nvs.h"
+#include "timer.h"
+#include "uart.h"
+#include "controller.h"
+#include "responder.h"
 
 namespace esphome {
 namespace dmx {
